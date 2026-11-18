@@ -272,7 +272,6 @@ h3 { margin: 0 0 8px; font-size: 18px; }
 
 .contact__address { flex: 1 1 280px; min-width: 0; font-style: normal; }
 
-.todo { background: #FFE58A; color: var(--navy); padding: 1px 6px; }
 
 /* ---------- Patička ---------- */
 .footer { background: var(--navy); color: var(--white); font-size: 14px; }
