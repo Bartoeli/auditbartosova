@@ -293,3 +293,31 @@ h3 { margin: 0 0 8px; font-size: 18px; }
   /* telefonní číslo na jednom řádku i na úzkých displejích */
   .contact__phone { white-space: nowrap; font-size: clamp(30px, 11vw, 38px); }
 }
+
+/* ---------- Oprávnění KAČR (okno) ---------- */
+.cert {
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--white);
+  max-width: min(720px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+}
+.cert::backdrop { background: rgba(18, 38, 58, .85); }
+.cert img { display: block; width: 100%; height: auto; }
+.cert__close {
+  position: sticky;
+  top: 12px;
+  float: right;
+  margin: 12px 12px -56px 0;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--navy);
+  color: var(--white);
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
